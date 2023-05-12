@@ -53,7 +53,7 @@ public class Task1 {
 
         //   (log N)
 
-        String[] words = {"flow", "florida", "cat"};
+        String[] words = {"flow", "florida", "flat"};
         String answer = words[0];
         for (int i = 1; i < words.length; i++) {
             answer = prefix(answer, words[i]);
